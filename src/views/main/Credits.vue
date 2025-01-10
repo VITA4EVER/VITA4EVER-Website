@@ -26,9 +26,9 @@
                     <h2 class="card-title">EftzL06</h2>
                     <p>Discord Server Staff</p>
                     <p>Hardcore Vita fan playing Killzone Mercenary since 2015!</p>
-                        <a href="https://youtube.com/@enzogamesbrasil3714"><button class="btn btn-accent">YouTube</button></a>
+                        </div>
                     </div>
-                </div>
+                
         
                 <!-- Alex Brown Sobinec card-->
                 <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
