@@ -25,7 +25,8 @@
                     <div class="card-body">
                     <h2 class="card-title">EftzL06</h2>
                     <p>Discord Server Staff</p>
-                    <p>Playing Killzone Mercenary since 2015!</p>
+                    <p>Hardcore Vita fan playing Killzone Mercenary since 2015!</p>
+                        <a href="https://youtube.com/@enzogamesbrasil3714"><button class="btn btn-accent">YouTube</button></a>
                     </div>
                 </div>
         
