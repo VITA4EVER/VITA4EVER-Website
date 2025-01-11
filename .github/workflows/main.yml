@@ -14,7 +14,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-files: 'src/**/*'
+          source-files: 'src/*/*'
           destination-username: 'sobinec'
           destination-repository: 'vercel-vita4ever-website'
           commit-message: 'Clone Action - From original repo.'
