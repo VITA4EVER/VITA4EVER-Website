@@ -8,7 +8,7 @@
                 <!-- Obleck card-->
                 <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                     <figure>
-                    <img src="https://avatars.githubusercontent.com/u/31539311?v=4" alt="Soup (Console Cancer LOL)" class="h-64"/>
+                    <img src="https://avatars.githubusercontent.com/u/31539311?v=4" alt="Obleck avatar" class="h-64"/>
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title">Obleck</h2>
@@ -20,7 +20,7 @@
                 <!-- EftzL06 card-->
                 <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
-                    <img src="https://i.postimg.cc/XvBKR59Q/image.png" alt="Death Samba" class="h-64"/>
+                    <img src="https://i.postimg.cc/XvBKR59Q/image.png" alt="EftzL06 avatar" class="h-64"/>
                     </figure>
                         <div class="card-body">
                             <h2 class="card-title">EftzL06</h2>
@@ -34,7 +34,7 @@
                 <!-- Alex Brown Sobinec card-->
                 <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                     <figure>
-                    <img src="https://i.postimg.cc/4dZKWHPK/image.png" alt="Sobinec" class="h-64"/>
+                    <img src="https://i.postimg.cc/4dZKWHPK/image.png" alt="Sobinec avatar" class="h-64"/>
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title">Alex Brown Sobinec</h2>
