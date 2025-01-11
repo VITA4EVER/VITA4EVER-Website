@@ -12,7 +12,7 @@
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title">Obleck</h2>
-                        <p>Lead Developer</p>
+                        <p>Lead Developer, ROM-Hacker</p>
                         <a href="https://github.com/olebeck"><button class="btn btn-accent">Github</button></a>
                     </div>
                 </div>
