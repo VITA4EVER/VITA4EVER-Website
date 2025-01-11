@@ -19,3 +19,5 @@ jobs:
           destination-repository: 'vercel-vita4ever-website'
           commit-message: 'Clone Action - From original repo.'
           destination-branch: 'main'
+          commit-username: sobinec
+          commit-email: walrus-pope-human@duck.com
