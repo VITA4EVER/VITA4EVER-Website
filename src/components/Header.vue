@@ -21,6 +21,7 @@
           <button class="btn bg-white text-black"><a href="/">Home</a></button>
           <button class="btn bg-red-600 text-white"><a href="/credits">Credits</a></button>
           <button class="btn bg-indigo-500 text-white"><a href="/devlogs">Devlogs</a></button>
+          <button class="btn bg-blue-500 text-black"><a href="https://discord.gg/ZrGP7hG65n">Discord</a></button>
 
         </ul> <!-- End of mobile dropdown -->
       </div>
@@ -31,6 +32,7 @@
         <li class="border-2 rounded-xl"><a href="/">Home</a></li>
         <li class="border-2 rounded-xl border-red-600"><a href="/credits">Credits</a></li>
         <li class="border-2 rounded-xl border-indigo-500"><a href="/devlogs">Devlogs</a></li>
+        <li class="border-2 rounded-xl border-blue-500"><a href="https://discord.gg/ZrGP7hG65n">Discord</a></li>
       </ul> <!-- End of the center navbar -->
     </div>
     <div class="navbar-end">
