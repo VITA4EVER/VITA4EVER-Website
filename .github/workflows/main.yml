@@ -1,0 +1,20 @@
+name: Push Files to Another Repo
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  push_files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Push files to another repository
+        uses: nkoppel/push-files-to-another-repository@v1.1.4
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-files: '**/*'
+          destination-username: 'sobinec'
+          destination-repository: 'vercel-vita4ever-website'
+          commit-message: 'Clone Action - From original repo.'
