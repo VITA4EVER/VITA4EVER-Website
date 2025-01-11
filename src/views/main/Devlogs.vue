@@ -10,19 +10,19 @@
             
                     <div class="m-6">
                       <ul class="steps steps-vertical">
-                        <li class="step step-accent"><a href="/devlogs/1" class="underline">Mirage - 15/1/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/2" class="underline">Mirage - 15/2/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/3" class="underline">Mirage - 29/2/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/4" class="underline">Mirage - 14/3/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/5" class="underline">Mirage - 24/3/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/6" class="underline">Mirage - 27/3/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/7" class="underline">Mirage - 3/4/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/8" class="underline">Mirage - 5/4/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/9" class="underline">Mirage - 20/4/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/10" class="underline">Mirage - 24/4/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/11" class="underline">Mirage - 26/4/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/12" class="underline">Mirage - 15/6/2024</a></li>
-                        <li class="step step-accent"><a href="/devlogs/13" class="underline">Mirage - 3/7/2024</a></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/1" class="underline">Mirage - 15/1/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/2" class="underline">Mirage - 15/2/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/3" class="underline">Mirage - 29/2/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/4" class="underline">Mirage - 14/3/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/5" class="underline">Mirage - 24/3/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/6" class="underline">Mirage - 27/3/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/7" class="underline">Mirage - 3/4/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/8" class="underline">Mirage - 5/4/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/9" class="underline">Mirage - 20/4/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/10" class="underline">Mirage - 24/4/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/11" class="underline">Mirage - 26/4/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/12" class="underline">Mirage - 15/6/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/13" class="underline">Mirage - 3/7/2024</RouterLink></li>
                       </ul>
                     </div>
                   </div>

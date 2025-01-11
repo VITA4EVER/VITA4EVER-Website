@@ -13,20 +13,20 @@
                     <div class="card-body">
                         <h2 class="card-title">Obleck</h2>
                         <p>Lead Developer, ROM-Hacker</p>
-                        <a href="https://github.com/olebeck"><button class="btn btn-accent">Github</button></a>
+                        <a href="https://github.com/olebeck" class="btn btn-accent">Github</a>
                     </div>
                 </div>
         
                 <!-- EftzL06 card-->
                 <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
-                    <img src="https://i.postimg.cc/XvBKR59Q/image.png" alt="EftzL06 avatar" class="h-64"/>
+                    <img src="https://avatars.githubusercontent.com/u/168193923?v=4" alt="EftzL06 avatar" class="h-64"/>
                     </figure>
                         <div class="card-body">
                             <h2 class="card-title">EftzL06</h2>
                             <p>Discord Server Staff</p>
                             <p>Hardcore Vita fan playing Killzone Mercenary since 2015!</p>
-                            <a href="https://youtube.com/@enzogamesbrasil3714"><button class="btn btn-accent">YouTube</button></a>
+                            <a href="https://youtube.com/@enzogamesbrasil3714" class="btn btn-accent">YouTube</a>
                         </div>
                     </div>
                 
@@ -34,12 +34,12 @@
                 <!-- Alex Brown Sobinec card-->
                 <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                     <figure>
-                    <img src="https://i.postimg.cc/4dZKWHPK/image.png" alt="Sobinec avatar" class="h-64"/>
+                    <img src="https://avatars.githubusercontent.com/u/112289353?v=4" alt="Sobinec avatar" class="h-64"/>
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title">Alex Brown Sobinec</h2>
                         <p>Lead Developer</p>
-                        <a href="https://sobinec.vercel.app"><button class="btn btn-accent">Website</button></a>
+                        <a href="https://sobinec.vercel.app" class="btn btn-accent">Website</a>
                     </div>
                 </div>
             </div>

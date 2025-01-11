@@ -39,7 +39,7 @@
 
       <div class="hero min-h-screen">
         <div class="text-center">
-            <img src="https://i.postimg.cc/V6BrMJnd/VITA4-EVER-Logo.png" class="p-2 pb-7 pt-14">
+            <img src="@/assets/images/VITA4-EVER-Logo.png" class="p-2 pb-7 pt-14">
             <h2 class="text-3xl">A team working on restoring functionality for games and applications.</h2>
             
             <p class="font-bold mt-9" style="font-size: 1.875rem; line-height: 2.25rem">Our Servers:</p>
@@ -47,7 +47,7 @@
 
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
-                  <img src="https://i.postimg.cc/pTJM2wRc/1261457-3840x2160-desktop-4k-the-playstation-background-image-1485112063.jpg" alt="Killzone Mercenary Picture"/>
+                  <img src="@/assets/images/1261457-3840x2160-desktop-4k-the-playstation-background-image-1485112063.jpg" alt="Killzone Mercenary Picture"/>
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title font-bold">PSN Server (Working title!)</h2>
@@ -57,7 +57,7 @@
 
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
-                  <img src="https://i.postimg.cc/cLnjxpc7/Logo-copy.png" alt="Killzone Mercenary Picture"/>
+                  <img src="@/assets/images/Logo-copy.png" alt="Killzone Mercenary Picture"/>
                 </figure>
                 <div class="card-body align-bottom mt-6">
                   <h2 class="card-title font-bold">Mirage</h2>
@@ -67,7 +67,7 @@
       
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
-                  <img src="https://i.postimg.cc/5yh30YVj/PSVita-Messaging-App.jpg" alt="PS Vita Messaging App"/>
+                  <img src="@/assets/images/PSVita-Messaging-App.jpg" alt="PS Vita Messaging App"/>
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title font-bold">PS Vita Messaging App</h2>
@@ -82,14 +82,14 @@
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
                   <img
-                    src="https://i.postimg.cc/DwB7q24x/VITA4-EVER-Discord-Server-Avatar.jpg"
+                    src="@/assets/images/VITA4-EVER-Discord-Server-Avatar.jpg"
                     alt="Discord Server Avatar" />
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title">News and Communication</h2>
                   <p class="text-left">Join our official discord server for more information, news and more!</p>
                   <div class="card-actions justify-end">
-                    <a href="https://discord.gg/ZrGP7hG65n"><button class="btn btn-accent">Join Discord</button></a>
+                    <RouterLink href="https://discord.gg/ZrGP7hG65n" class="btn btn-accent">Join Discord</RouterLink>
                   </div>
                 </div>
               </div>
@@ -97,14 +97,14 @@
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
                   <img
-                    src="https://i.postimg.cc/g0SzZMj2/Staff-Picture.png"
+                    src="@/assets/images/Staff-Picture.png"
                     alt="Staff Picture" />
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title">Credits</h2>
                   <p class="text-left">Look at our staff</p>
                   <div class="card-actions justify-end">
-                    <a href="/credits"><button class="btn btn-accent">Credits</button></a>
+                    <RouterLink to="/credits" class="btn btn-accent">Credits</RouterLink>
                   </div>
                 </div>
               </div>
@@ -112,14 +112,14 @@
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
                   <img
-                    src="https://i.postimg.cc/KvTfWNPT/Devlogs.png"
+                    src="@/assets/images/Devlogs.png"
                     alt="Devlogs" />
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title">Development Logs</h2>
                   <p class="text-left">More information about development.</p>
                   <div class="card-actions justify-end">
-                    <a href="/devlogs"><button class="btn btn-accent">Devlogs</button></a>
+                    <RouterLink to="/devlogs" class="btn btn-accent">Devlogs</RouterLink>
                   </div>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 // src/router/index.js
 
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 
 /* MAIN PAGES */
 
@@ -182,7 +182,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+  history: createWebHashHistory(),
   routes,
   beforeEach: (to, from) => {
     console.log(`Navigating from ${from.path} to ${to.path}`);
