@@ -18,3 +18,4 @@ jobs:
           destination-username: 'sobinec'
           destination-repository: 'vercel-vita4ever-website'
           commit-message: 'Clone Action - From original repo.'
+          destination-branch: 'main'
