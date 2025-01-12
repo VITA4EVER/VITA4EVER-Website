@@ -5,41 +5,43 @@
             <h1 class="text-5xl font-bold mb-9">Credits</h1>
 
             <div class="text-center flex flex-wrap justify-center align-middle gap-6">
-                <!-- Obleck card-->
-                <div class="card glass w-89 shadow-xl m-1">
+                <div class="card glass w-[22rem] m-1">
                     <figure>
-                    <img src="https://avatars.githubusercontent.com/u/31539311?v=4" alt="Obleck avatar" class="h-64"/>
+                      <img src="https://avatars.githubusercontent.com/u/31539311?v=4" height="352px" width="352px"/>
                     </figure>
                     <div class="card-body">
-                        <h2 class="card-title">Obleck</h2>
-                        <p>Lead Developer, ROM-Hacker</p>
-                        <a href="https://github.com/olebeck" class="btn btn-accent">Github</a>
+                      <h2 class="card-title">Obleck</h2>
+                      <p>Lead Developer, ROM-Hacker</p>
+                      <div class="card-actions justify-center">
+                        <button class="btn btn-accent"><a href="https://github.com/olebeck">Github</a></button>
+                      </div>
                     </div>
                 </div>
-        
-                <!-- EftzL06 card-->
-                <div class="card glass w-89 shadow-xl m-1">
-                <figure>
-                    <img src="https://avatars.githubusercontent.com/u/168193923?v=4" alt="EftzL06 avatar" class="h-64"/>
-                    </figure>
-                        <div class="card-body">
-                            <h2 class="card-title">EftzL06</h2>
-                            <p>Discord Server Staff</p>
-                            <p>Hardcore Vita fan playing Killzone Mercenary since 2015!</p>
-                            <a href="https://youtube.com/@enzogamesbrasil3714" class="btn btn-accent">YouTube</a>
-                        </div>
-                    </div>
-                
-        
-                <!-- Alex Brown Sobinec card-->
-                <div class="card glass w-89 shadow-xl m-1">
+
+                <div class="card glass w-[22rem] m-1">
                     <figure>
-                    <img src="https://avatars.githubusercontent.com/u/112289353?v=4" alt="Sobinec avatar" class="h-64"/>
+                      <img src="https://avatars.githubusercontent.com/u/168193923?v=4"/>
                     </figure>
                     <div class="card-body">
-                        <h2 class="card-title">Alex Brown Sobinec</h2>
-                        <p>Lead Developer</p>
-                        <a href="https://sobinec.vercel.app" class="btn btn-accent">Website</a>
+                      <h2 class="card-title">EftzL06</h2>
+                      <p>Discord Server Staff</p>
+                      <p>Hardcore Vita fan playing Killzone Mercenary since 2015!</p>
+                      <div class="card-actions justify-center">
+                        <button class="btn btn-accent"><a href="https://youtube.com/@enzogamesbrasil3714">YouTube</a></button>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="card glass w-[22rem] m-1">
+                    <figure>
+                      <img src="https://i.postimg.cc/pL24n7F7/Jeremy-logo.png" class="p-2"/>
+                    </figure>
+                    <div class="card-body mt-4">
+                      <h2 class="card-title">Alex Brown Sobinec</h2>
+                      <p>Lead Developer</p>
+                      <div class="card-actions justify-center">
+                        <button class="btn btn-accent"><a href="https://sobinec.vercel.app">Website</a></button>
+                      </div>
                     </div>
                 </div>
             </div>
