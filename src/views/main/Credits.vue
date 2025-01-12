@@ -6,7 +6,7 @@
 
             <div class="text-center flex flex-wrap justify-center align-middle gap-6">
                 <!-- Obleck card-->
-                <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
+                <div class="card glass w-89 shadow-xl m-1">
                     <figure>
                     <img src="https://avatars.githubusercontent.com/u/31539311?v=4" alt="Obleck avatar" class="h-64"/>
                     </figure>
@@ -18,7 +18,7 @@
                 </div>
         
                 <!-- EftzL06 card-->
-                <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
+                <div class="card glass w-89 shadow-xl m-1">
                 <figure>
                     <img src="https://avatars.githubusercontent.com/u/168193923?v=4" alt="EftzL06 avatar" class="h-64"/>
                     </figure>
@@ -32,7 +32,7 @@
                 
         
                 <!-- Alex Brown Sobinec card-->
-                <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
+                <div class="card glass w-89 shadow-xl m-1">
                     <figure>
                     <img src="https://avatars.githubusercontent.com/u/112289353?v=4" alt="Sobinec avatar" class="h-64"/>
                     </figure>
