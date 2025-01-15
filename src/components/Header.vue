@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar bg-primary border-b-[1px] border-indigo-600">
+  <div class="navbar bg-primary border-b-2 border-red-600">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -18,11 +18,11 @@
         </div>
         <ul tabindex="0" class="menu menu-sm dropdown-content glass rounded-box z-[1] mt-3 w-32 p-2 shadow"> <!-- Start of mobile dropdown -->
 
-          <RouterLink to="/" class="btn bg-white text-black">Home</RouterLink>
-          <RouterLink to="/credits" class="btn bg-red-600 text-white">Credits</RouterLink>
-          <RouterLink to="/devlogs" class="btn bg-indigo-500 text-white">Devlogs</RouterLink>
-          <a href="https://discord.gg/ZrGP7hG65n" class="btn bg-blue-500 text-black">Discord</a>
-          <a href="https://github.com/VITA4EVER/" class="btn bg-white text-black">Github</a>
+          <RouterLink to="/" class="btn bg-white text-black m-1">Home</RouterLink>
+          <RouterLink to="/credits" class="btn bg-red-600 text-white m-1">Credits</RouterLink>
+          <RouterLink to="/devlogs" class="btn bg-indigo-500 text-white m-1">Devlogs</RouterLink>
+          <a href="https://discord.gg/ZrGP7hG65n" class="btn bg-blue-500 text-black m-1">Discord</a>
+          <a href="https://github.com/VITA4EVER/" class="btn bg-gray-400 text-black m-1">Github</a>
 
         </ul> <!-- End of mobile dropdown -->
       </div>
@@ -34,7 +34,7 @@
         <li class="border-2 rounded-xl border-red-600"><RouterLink to="/credits">Credits</RouterLink></li>
         <li class="border-2 rounded-xl border-indigo-500"><RouterLink to="/devlogs">Devlogs</RouterLink></li>
         <li class="border-2 rounded-xl border-blue-500"><a href="https://discord.gg/ZrGP7hG65n">Discord</a></li>
-        <li class="border-2 rounded-xl"><a href="https://github.com/VITA4EVER/">Github</a></li>
+        <li class="border-2 rounded-xl border-gray-400"><a href="https://github.com/VITA4EVER/">Github</a></li>
       </ul> <!-- End of the center navbar -->
     </div>
     <div class="navbar-end">
