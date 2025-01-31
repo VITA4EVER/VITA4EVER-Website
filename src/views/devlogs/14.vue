@@ -5,7 +5,7 @@
 
         <h2>Simplified Video</h2>
         <p>We made a really simple video about this devlog. There's not much in it, but if you don't care for deep understanding, maybe it will be a good solution for you.</p>
-        <iframe width="320" height="180" src="https://youtu.be/rkzO3IdOPtk"></iframe>
+        <a href="https://youtu.be/rkzO3IdOPtk">Click here to open the video</a>
 
         <h2>What is PSNE?</h2>
         <img src="https://i.postimg.cc/FF8Zfww2/PSNE.png">
