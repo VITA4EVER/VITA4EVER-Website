@@ -23,6 +23,7 @@ import DevlogTen from "@/views/devlogs/10.vue";
 import DevlogEleven from "@/views/devlogs/11.vue";
 import DevlogTwelve from "@/views/devlogs/12.vue";
 import DevlogThirteen from "@/views/devlogs/13.vue"
+import DevlogFourteen from "@/views/devlogs/14.vue";
 
 const routes = [
 
@@ -178,7 +179,11 @@ const routes = [
     name: "Devlog13",
     component: DevlogThirteen
   },
-
+  {
+    path: "/Devlogs/14",
+    name: "Devlog14",
+    component: DevlogFourteen
+  },
 ];
 
 const router = createRouter({

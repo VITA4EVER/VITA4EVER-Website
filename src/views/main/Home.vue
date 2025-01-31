@@ -47,7 +47,7 @@
 
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
-                  <img src="@/assets/images/1261457-3840x2160-desktop-4k-the-playstation-background-image-1485112063.jpg" alt="Killzone Mercenary Picture"/>
+                  <img src="@/assets/images/1261457-3840x2160-desktop-4k-the-playstation-background-image-1485112063.jpg" alt="PSNE"/>
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title font-bold">PSN Server (Working title!)</h2>
@@ -57,7 +57,7 @@
 
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
-                  <img src="@/assets/images/Logo-copy.png" alt="Killzone Mercenary Picture"/>
+                  <img src="@/assets/images/Logo-copy.png" alt="Mirage Picture"/>
                 </figure>
                 <div class="card-body align-bottom mt-6">
                   <h2 class="card-title font-bold">Mirage</h2>
