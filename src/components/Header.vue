@@ -23,6 +23,8 @@
           <RouterLink to="/devlogs" class="btn bg-indigo-500 text-white m-1">Devlogs</RouterLink>
           <a href="https://discord.gg/ZrGP7hG65n" class="btn bg-blue-500 text-black m-1">Discord</a>
           <a href="https://github.com/VITA4EVER/" class="btn bg-gray-400 text-black m-1">Github</a>
+          <RouterLink to="/rss" class="btn bg-orange-600 text-black m-1 ">RSS</RouterLink>
+          <RouterLink to="/project-status" class="btn bg-cyan-400 text-cyan-950 m-1">Project Status</RouterLink>
 
         </ul> <!-- End of mobile dropdown -->
       </div>
@@ -35,6 +37,9 @@
         <li class="border-2 rounded-xl border-indigo-500"><RouterLink to="/devlogs">Devlogs</RouterLink></li>
         <li class="border-2 rounded-xl border-blue-500"><a href="https://discord.gg/ZrGP7hG65n">Discord</a></li>
         <li class="border-2 rounded-xl border-gray-400"><a href="https://github.com/VITA4EVER/">Github</a></li>
+        <!--<li class="border-2 rounded-xl border-emerald-700"><RouterLink to="/status/kzv">KZV Status</RouterLink></li>-->
+        <li class="border-2 rounded-xl border-orange-600"><RouterLink to="/rss">RSS</RouterLink></li>
+        <li class="border-2 rounded-xl border-x-cyan-400"><RouterLink to="/project-status">Project Status</RouterLink></li>
       </ul> <!-- End of the center navbar -->
     </div>
     <div class="navbar-end">

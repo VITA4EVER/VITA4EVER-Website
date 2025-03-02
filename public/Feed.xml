@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss>
+    <channel>
+        <title>VITA4EVER</title>
+        <link>https://vita4ever.github.io/#/rss</link>
+        <description>Revive the past - Together.</description>
+        <language>en-us</language>
+
+        <item>
+            <title>Feed Created!</title>
+            <link>https://vita4ever.github.io/#/rss</link>
+            <author>Alex Brown Sobinec</author>
+            <pubDate>Sun, 20 Feb 2025 12:00:00 GMT</pubDate>
+
+            <!-- Article content itself -->
+            <content><![CDATA[
+                <p>Greetings! The official VITA4EVER RSS feed has been created.</p>
+                <p>To add it to your RSS reader, please use this link: <a href="https://vita4ever.github.io/Feed.xml">https://vita4ever.github.io/Feed.xml</a></p>
+                <p>You can also use a built in RSS reader on our website, just visit <a href="https://vita4ever.github.io/#/rss">this page.</a>
+                <p>We also added a status page, where you can see the current status of development. To visit it, <a href="https://vita4ever.github.io/#/project-status">open this page.</a>
+                <p>That is the end of this post. Please await for future news and updates.</p>
+                <p>And as usual...</p>
+                <p>With VITA4EVER, <b>Revive the past - Together.</b></p>
+            ]]></content>
+
+        </item>
+    </channel>
+</rss>

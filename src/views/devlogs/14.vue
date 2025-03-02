@@ -5,14 +5,14 @@
 
         <h2>Simplified Video</h2>
         <p>We made a really simple video about this devlog. There's not much in it, but if you don't care for deep understanding, maybe it will be a good solution for you.</p>
-        <a href="https://youtu.be/rkzO3IdOPtk">Click here to open the video</a>
+        <iframe width="320" height="180" src="https://youtu.be/rkzO3IdOPtk"></iframe>
 
         <h2>What is PSNE?</h2>
-        <img src="https://i.postimg.cc/FF8Zfww2/PSNE.png">
+        <img src="@/assets/images/PSNELogo.webp">
         <p>PSNE is a PlayStation Network Emulator that is designed to work under the PlayStation Vita system.</p>
 
         <h2>What is Mirage?</h2>
-        <img src="@/assets/images/Logo-copy.png" alt="Mirage Picture"/>
+        <img src="@/assets/images/MirageLogo.webp" alt="Mirage Picture"/>
         <p>Mirage is a dedicated Killzone Mercenary server. It handles some stuff game functions, like:</p>
         <ol>
             <li><b>Leaderboard</b> - Leaderboards are handled by the dedicated server, and not PSN.</li>

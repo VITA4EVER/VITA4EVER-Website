@@ -39,25 +39,25 @@
 
       <div class="hero min-h-screen">
         <div class="text-center">
-            <img src="@/assets/images/VITA4-EVER-Logo.png" class="p-2 pb-7 pt-14">
+            <img src="@/assets/images/VITA4EVERLogo.webp" class="p-2 pb-7 pt-14 mx-auto">
             <h2 class="text-3xl">A team working on restoring functionality for games and applications.</h2>
             
             <p class="font-bold mt-9" style="font-size: 1.875rem; line-height: 2.25rem">Our Servers:</p>
             <div class="text-center flex flex-wrap justify-center align-middle gap-6 mt-6"> <!-- Card container -->
 
-              <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
+              <div class="card glass min-w-86 max-w-96 grow m-1">
                 <figure>
-                  <img src="@/assets/images/1261457-3840x2160-desktop-4k-the-playstation-background-image-1485112063.jpg" alt="PSNE"/>
+                  <img src="@/assets/images/PSNELogo.webp" alt="PSNE"/>
                 </figure>
-                <div class="card-body">
+                <div class="card-body mt-8">
                   <h2 class="card-title font-bold">PSN Server (Working title!)</h2>
                   <p class="text-left">A WIP PSN server emulator, like RPCN, but for PlayStation Vita.</p>
                 </div>
               </div>
 
-              <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
+              <div class="card glass min-w-86 max-w-96 grow m-1">
                 <figure>
-                  <img src="@/assets/images/Logo-copy.png" alt="Mirage Picture"/>
+                  <img src="@/assets/images/MirageLogo.webp" alt="Mirage Picture"/>
                 </figure>
                 <div class="card-body align-bottom mt-6">
                   <h2 class="card-title font-bold">Mirage</h2>
@@ -65,9 +65,9 @@
                 </div>
               </div>
       
-              <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
+              <div class="card glass min-w-86 max-w-96 grow m-1">
                 <figure>
-                  <img src="@/assets/images/PSVita-Messaging-App.jpg" alt="PS Vita Messaging App"/>
+                  <img src="@/assets/images/MessagingApp.webp" alt="PS Vita Messaging App"/>
                 </figure>
                 <div class="card-body">
                   <h2 class="card-title font-bold">PS Vita Messaging App</h2>
@@ -82,11 +82,11 @@
               <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
                 <figure>
                   <img
-                    src="@/assets/images/VITA4-EVER-Discord-Server-Avatar.jpg"
+                    src="@/assets/images/DiscordServerAvatar.webp"
                     alt="Discord Server Avatar" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title">News and Communication</h2>
+                  <h2 class="card-title">Community Space</h2>
                   <p class="text-left">Join our official discord server for more information, news and more!</p>
                   <div class="card-actions justify-end">
                     <RouterLink href="https://discord.gg/ZrGP7hG65n" class="btn btn-accent">Join Discord</RouterLink>
@@ -94,10 +94,10 @@
                 </div>
               </div>
       
-              <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
+              <div class="card glass min-w-86 max-w-96 grow m-1">
                 <figure>
                   <img
-                    src="@/assets/images/Staff-Picture.png"
+                    src="@/assets/images/Staff.webp"
                     alt="Staff Picture" />
                 </figure>
                 <div class="card-body">
@@ -109,10 +109,10 @@
                 </div>
               </div>
       
-              <div class="card glass min-w-86 max-w-96 grow shadow-xl m-1">
+              <div class="card glass min-w-86 max-w-96 grow m-1">
                 <figure>
                   <img
-                    src="@/assets/images/Devlogs.png"
+                    src="@/assets/images/Devlogs.webp"
                     alt="Devlogs" />
                 </figure>
                 <div class="card-body">
@@ -124,6 +124,36 @@
                 </div>
               </div>
       
+              <div class="card glass min-w-86 max-w-96 grow m-1">
+                <figure>
+                  <img
+                    src="@/assets/images/News.webp"
+                    alt="RSS" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">News</h2>
+                  <p class="text-left">Our RSS feed with the latest news!</p>
+                  <div class="card-actions justify-end">
+                    <RouterLink to="/rss" class="btn btn-accent">Feed</RouterLink>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card glass min-w-86 max-w-96 grow m-1">
+                <figure>
+                  <img
+                    src="@/assets/images/ProjectStatus.webp"
+                    alt="RSS" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">Project Status</h2>
+                  <p class="text-left">Unsure of what's ready and what's in developmet? This will help!</p>
+                  <div class="card-actions justify-end">
+                    <RouterLink to="/project-status" class="btn btn-accent">Status</RouterLink>
+                  </div>
+                </div>
+              </div>
+
             </div><br>
           </div> 
       </div>
@@ -136,8 +166,6 @@ export default {
 </script>
 
 <style>
-
-
 @media (max-width: 1025px) {
   #shapes {
     display: none;

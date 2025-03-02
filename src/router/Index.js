@@ -7,6 +7,8 @@ import { createRouter, createWebHashHistory } from 'vue-router';
 import HomePage from "@/views/main/Home.vue";
 import CreditsPage from "@/views/main/Credits.vue";
 import DevlogsPage from "@/views/main/Devlogs.vue";
+import RSS from "@/views/main/RSS.vue";
+import ProjectStatus from "@/views/main/ProjectStatus.vue";
 
 /* Mirage DEVLOG PAGES */
 
@@ -25,6 +27,10 @@ import DevlogTwelve from "@/views/devlogs/12.vue";
 import DevlogThirteen from "@/views/devlogs/13.vue"
 import DevlogFourteen from "@/views/devlogs/14.vue";
 
+/* STATUS */
+
+import KillzoneStatus from "@/views/main/KillzoneMercenaryStatus.vue";
+
 const routes = [
 
   /* MAIN PAGES */
@@ -40,6 +46,19 @@ const routes = [
     component: CreditsPage
   },
   {
+    path: "/rss:catchAll(.*)",
+    name: "RSS",
+    component: RSS
+  },
+  {
+    path: "/project-status",
+    name: "ProjectStatus",
+    component: ProjectStatus
+  },
+
+  /* Devlog pages */
+
+  {
     path: "/devlogs",
     name: "DevlogsPage",
     component: DevlogsPage
@@ -49,6 +68,9 @@ const routes = [
     name: "DevlogsPage",
     component: DevlogsPage
   },
+
+  /* DEVLOGS */
+
   {
     path: "/devlogs/1",
     name: "Devlog1",
@@ -180,9 +202,22 @@ const routes = [
     component: DevlogThirteen
   },
   {
+    path: "/devlogs/14",
+    name: "Devlog14",
+    component: DevlogFourteen
+  },
+  {
     path: "/Devlogs/14",
     name: "Devlog14",
     component: DevlogFourteen
+  },
+
+  /* STATUS */
+
+  {
+    path: "/status/kzv",
+    name: "KillzoneStatus",
+    component: KillzoneStatus
   },
 ];
 

@@ -23,6 +23,7 @@
                         <li class="step step-accent"><RouterLink to="/devlogs/11" class="underline">Mirage - 26/4/2024</RouterLink></li>
                         <li class="step step-accent"><RouterLink to="/devlogs/12" class="underline">Mirage - 15/6/2024</RouterLink></li>
                         <li class="step step-accent"><RouterLink to="/devlogs/13" class="underline">Mirage - 3/7/2024</RouterLink></li>
+                        <li class="step step-accent"><RouterLink to="/devlogs/14" class="underline">Mirage + PSNE - 31/1/2025</RouterLink></li>
                       </ul>
                     </div>
                   </div>
