@@ -11,6 +11,8 @@ Our website provides:
 - Development logs (devlogs) detailing our progress
 - Credits page showcasing our team members
 - Links to join our Discord community for news and discussions
+- Our official RSS Feed for news and updates, and a built in RSS Reader
+- Project Status
 
 ## Contributing
 
@@ -18,7 +20,7 @@ Contributions are welcome! Please feel free to:
 
 - Report issues or bugs
 - Suggest improvements to the website content or structure
-- Contribute to our open-source projects (For example: Mirage)
+- Contribute to our open-source projects (For example: Mirage (Will be open source later!))
 
 ## License
 
